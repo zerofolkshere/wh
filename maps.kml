@@ -4,7 +4,7 @@
     <name>Waxholms Hotell</name>
     <description/>
 
-    <!----  KEEP ONLY THE POLYGON STYLES  –-->
+    <!-- ── polygon & line styles ── -->
     <Style id="poly-1A237E-5101-77-normal">
       <LineStyle><color>ff7e231a</color><width>5.101</width></LineStyle>
       <PolyStyle><color>4d7e231a</color><fill>1</fill><outline>1</outline></PolyStyle>
@@ -13,36 +13,134 @@
       <LineStyle><color>ff7e231a</color><width>7.6515</width></LineStyle>
       <PolyStyle><color>4d7e231a</color><fill>1</fill><outline>1</outline></PolyStyle>
     </Style>
-    <!-- … all other poly- styles unchanged … -->
     <StyleMap id="poly-1A237E-5101-77">
       <Pair><key>normal</key><styleUrl>#poly-1A237E-5101-77-normal</styleUrl></Pair>
       <Pair><key>highlight</key><styleUrl>#poly-1A237E-5101-77-highlight</styleUrl></Pair>
     </StyleMap>
-    <!-- repeat the Style + StyleMap blocks for every poly-FFD600-… etc. -->
 
-    <!----  Folders & Placemarks – unchanged except:               –-->
-    <!----  *hotel* placemark no longer references icon style      –-->
-    <!----  so Google will draw its default pin                    –-->
+    <Style id="poly-1A237E-5301-77-normal">
+      <LineStyle><color>ff7e231a</color><width>5.301</width></LineStyle>
+      <PolyStyle><color>4d7e231a</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-5301-77-highlight">
+      <LineStyle><color>ff7e231a</color><width>7.9515</width></LineStyle>
+      <PolyStyle><color>4d7e231a</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-5301-77">
+      <Pair><key>normal</key><styleUrl>#poly-1A237E-5301-77-normal</styleUrl></Pair>
+      <Pair><key>highlight</key><styleUrl>#poly-1A237E-5301-77-highlight</styleUrl></Pair>
+    </StyleMap>
 
+    <Style id="poly-1A237E-5401-77-normal">
+      <LineStyle><color>ff7e231a</color><width>5.401</width></LineStyle>
+      <PolyStyle><color>4d7e231a</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-5401-77-highlight">
+      <LineStyle><color>ff7e231a</color><width>8.1015</width></LineStyle>
+      <PolyStyle><color>4d7e231a</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-5401-77">
+      <Pair><key>normal</key><styleUrl>#poly-1A237E-5401-77-normal</styleUrl></Pair>
+      <Pair><key>highlight</key><styleUrl>#poly-1A237E-5401-77-highlight</styleUrl></Pair>
+    </StyleMap>
+
+    <Style id="poly-1A237E-5501-77-normal">
+      <LineStyle><color>ff7e231a</color><width>5.501</width></LineStyle>
+      <PolyStyle><color>4d7e231a</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-5501-77-highlight">
+      <LineStyle><color>ff7e231a</color><width>8.2515</width></LineStyle>
+      <PolyStyle><color>4d7e231a</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-5501-77">
+      <Pair><key>normal</key><styleUrl>#poly-1A237E-5501-77-normal</styleUrl></Pair>
+      <Pair><key>highlight</key><styleUrl>#poly-1A237E-5501-77-highlight</styleUrl></Pair>
+    </StyleMap>
+
+    <Style id="poly-FFD600-5201-77-normal">
+      <LineStyle><color>ff00d6ff</color><width>5.201</width></LineStyle>
+      <PolyStyle><color>4d00d6ff</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <Style id="poly-FFD600-5201-77-highlight">
+      <LineStyle><color>ff00d6ff</color><width>7.8015</width></LineStyle>
+      <PolyStyle><color>4d00d6ff</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFD600-5201-77">
+      <Pair><key>normal</key><styleUrl>#poly-FFD600-5201-77-normal</styleUrl></Pair>
+      <Pair><key>highlight</key><styleUrl>#poly-FFD600-5201-77-highlight</styleUrl></Pair>
+    </StyleMap>
+
+    <Style id="poly-FFD600-5401-77-normal">
+      <LineStyle><color>ff00d6ff</color><width>5.401</width></LineStyle>
+      <PolyStyle><color>4d00d6ff</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <Style id="poly-FFD600-5401-77-highlight">
+      <LineStyle><color>ff00d6ff</color><width>8.1015</width></LineStyle>
+      <PolyStyle><color>4d00d6ff</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFD600-5401-77">
+      <Pair><key>normal</key><styleUrl>#poly-FFD600-5401-77-normal</styleUrl></Pair>
+      <Pair><key>highlight</key><styleUrl>#poly-FFD600-5401-77-highlight</styleUrl></Pair>
+    </StyleMap>
+
+    <Style id="poly-FFD600-5501-77-normal">
+      <LineStyle><color>ff00d6ff</color><width>5.501</width></LineStyle>
+      <PolyStyle><color>4d00d6ff</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <Style id="poly-FFD600-5501-77-highlight">
+      <LineStyle><color>ff00d6ff</color><width>8.2515</width></LineStyle>
+      <PolyStyle><color>4d00d6ff</color><fill>1</fill><outline>1</outline></PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFD600-5501-77">
+      <Pair><key>normal</key><styleUrl>#poly-FFD600-5501-77-normal</styleUrl></Pair>
+      <Pair><key>highlight</key><styleUrl>#poly-FFD600-5501-77-highlight</styleUrl></Pair>
+    </StyleMap>
+
+    <!-- ── parking: 4 hours ── -->
     <Folder>
       <name>Parkering: 4 tim / hours</name>
-      <!-- all parking polygons stay the same -->
+      <!-- Cronhamns gata -->
+      <Placemark><name>Parkeringsplats</name><description>Cronhamns gata</description><styleUrl>#poly-1A237E-5301-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3548489,59.403428,0 18.3549334,59.4034457,0 18.3547617,59.4037734,0 18.3543433,59.4036696,0 18.3544506,59.4036205,0 18.3546652,59.4036806,0 18.3548489,59.403428,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <!-- Fiskaregatan (two polygons) -->
+      <Placemark><name>Parkeringsplats</name><description>Fiskaregatan</description><styleUrl>#poly-1A237E-5401-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3508518,59.4048458,0 18.3512273,59.4047093,0 18.3512756,59.4047694,0 18.3509108,59.4048895,0 18.3508518,59.4048458,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <Placemark><name>Parkeringsplats</name><description>Fiskaregatan</description><styleUrl>#poly-1A237E-5401-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3509483,59.40494,0 18.3513131,59.4048212,0 18.3514472,59.4049277,0 18.3510851,59.4050506,0 18.3509483,59.40494,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <!-- Fiskaregatan gatuparkering -->
+      <Placemark><name>Gatuparkering</name><description>Fiskaregatan</description><styleUrl>#poly-1A237E-5501-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3500176,59.4050579,0 18.3500713,59.4050934,0 18.3493471,59.4053173,0 18.3493015,59.4052845,0 18.3500176,59.4050579,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <!-- Torggatan -->
+      <Placemark><name>Gatuparkering</name><description>Torggatan</description><styleUrl>#poly-1A237E-5401-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3488053,59.4044872,0 18.3491888,59.4043576,0 18.3492344,59.4043876,0 18.3488455,59.4045173,0 18.3488053,59.4044872,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <!-- Lägergatan -->
+      <Placemark><name>Parkeringsplats</name><description>Lägergatan</description><styleUrl>#poly-1A237E-5301-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.343953,59.4033372,0 18.3440764,59.4033317,0 18.344291,59.4052812,0 18.344189,59.4052812,0 18.343953,59.4033372,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <!-- Kungsgatan (two polygons) -->
+      <Placemark><name>Parkeringsplats</name><description>Kungsgatan</description><styleUrl>#poly-1A237E-5501-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3441085,59.4033413,0 18.3444519,59.4033426,0 18.3444841,59.403744,0 18.3441568,59.4037495,0 18.3441085,59.4033413,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <Placemark><name>Parkeringsplats</name><description>Kungsgatan</description><styleUrl>#poly-1A237E-5101-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3448301,59.4033263,0 18.3451761,59.4033167,0 18.3451949,59.403744,0 18.3448784,59.4037522,0 18.3448301,59.4033263,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
     </Folder>
 
+    <!-- ── parking: 2 hours ── -->
     <Folder>
       <name>Parkering: 2 tim / hours</name>
-      <!-- all parking polygons stay the same -->
+      <!-- outside hotel -->
+      <Placemark><name>Utanför Hotellet</name><description>Outside the hotel</description><styleUrl>#poly-FFD600-5501-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.353806,59.4020814,0 18.3552275,59.4019333,0 18.3552491,59.4019934,0 18.3538369,59.4021395,0 18.353806,59.4020814,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <!-- Hamngatan -->
+      <Placemark><name>Gatuparkering</name><description>Hamngatan</description><styleUrl>#poly-FFD600-5401-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3525251,59.4025249,0 18.3526002,59.4025972,0 18.3511009,59.4030546,0 18.3510258,59.4029959,0 18.3525251,59.4025249,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <Placemark><name>Gatuparkering</name><description>Hamngatan</description><styleUrl>#poly-FFD600-5201-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3508648,59.4030273,0 18.350956,59.4031037,0 18.3492072,59.4036853,0 18.3491375,59.4036225,0 18.3508648,59.4030273,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <!-- Rådhusgatan (two) -->
+      <Placemark><name>Gatuparkering</name><description>Rådhusgatan</description><styleUrl>#poly-FFD600-5501-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.350956,59.4031037,0 18.3511009,59.4030546,0 18.3516212,59.4035133,0 18.3514764,59.403546,0 18.350956,59.4031037,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <Placemark><name>Gatuparkering</name><description>Rådhusgatan</description><styleUrl>#poly-FFD600-5501-77</styleUrl><Polygon><outerBoundaryIs><Linear
+Ring><tessellate>1</tessellate><coordinates>18.3508648,59.4030273,0 18.3493306,59.4018477,0 18.3494647,59.4017931,0 18.3509882,59.4029808,0 18.3508648,59.4030273,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <!-- Västerhamnsplan -->
+      <Placemark><name>Parkeringsplats</name><description>Rådhusgatan / Västerhamnsplan</description><styleUrl>#poly-FFD600-5501-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3493306,59.401621,0 18.3498349,59.4014572,0 18.3500011,59.4016019,0 18.3495076,59.4017576,0 18.3493306,59.401621,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+      <!-- Repslagargatan -->
+      <Placemark><name>Gatuparkering</name><description>Repslagargatan</description><styleUrl>#poly-FFD600-5501-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3501953,59.4023447,0 18.3504904,59.4022328,0 18.350544,59.4022724,0 18.3502355,59.4023748,0 18.3501953,59.4023447,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
     </Folder>
 
+    <!-- ── hotel pin (icon removed) ── -->
     <Folder>
       <name>Hotellet</name>
       <Placemark>
         <name>Waxholms Hotell</name>
-        <!-- removed: <styleUrl>#icon-1899-DB4436-nodesc</styleUrl> -->
-        <Point>
-          <coordinates>18.3548508,59.402245,0</coordinates>
-        </Point>
+        <Point><coordinates>18.3548508,59.402245,0</coordinates></Point>
       </Placemark>
     </Folder>
+
   </Document>
 </kml>
