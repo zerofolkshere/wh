@@ -33,7 +33,7 @@
     <Style id="poly-FFD600-5501-77-highlight"><LineStyle><color>ff00d6ff</color><width>8.2515</width></LineStyle><PolyStyle><color>4d00d6ff</color><fill>1</fill><outline>1</outline></PolyStyle></Style>
     <StyleMap id="poly-FFD600-5501-77"><Pair><key>normal</key><styleUrl>#poly-FFD600-5501-77-normal</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#poly-FFD600-5501-77-highlight</styleUrl></Pair></StyleMap>
 
-    <!-- ─────────── Folders & placemarks ─────────── -->
+    <!-- ───────── Folders & placemarks (hotel placemark removed) ───────── -->
 
     <Folder><name>Parkering: 4 tim / hours</name>
       <Placemark><name>Parkeringsplats</name><description>Cronhamns gata</description><styleUrl>#poly-1A237E-5301-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3548489,59.403428,0 18.3549334,59.4034457,0 18.3547617,59.4037734,0 18.3543433,59.4036696,0 18.3544506,59.4036205,0 18.3546652,59.4036806,0 18.3548489,59.403428,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
@@ -54,15 +54,6 @@
       <Placemark><name>Gatuparkering</name><description>Rådhusgatan</description><styleUrl>#poly-FFD600-5501-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3508648,59.4030273,0 18.3493306,59.4018477,0 18.3494647,59.4017931,0 18.3509882,59.4029808,0 18.3508648,59.4030273,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
       <Placemark><name>Parkeringsplats</name><description>Rådhusgatan / Västerhamnsplan</description><styleUrl>#poly-FFD600-5501-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3493306,59.401621,0 18.3498349,59.4014572,0 18.3500011,59.4016019,0 18.3495076,59.4017576,0 18.3493306,59.401621,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
       <Placemark><name>Gatuparkering</name><description>Repslagargatan</description><styleUrl>#poly-FFD600-5501-77</styleUrl><Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>18.3501953,59.4023447,0 18.3504904,59.4022328,0 18.350544,59.4022724,0 18.3502355,59.4023748,0 18.3501953,59.4023447,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
-    </Folder>
-
-    <!-- Hotel placemark falls back to default Google pin -->
-    <Folder>
-      <name>Hotellet</name>
-      <Placemark>
-        <name>Waxholms Hotell</name>
-        <Point><coordinates>18.3548508,59.402245,0</coordinates></Point>
-      </Placemark>
     </Folder>
 
   </Document>
